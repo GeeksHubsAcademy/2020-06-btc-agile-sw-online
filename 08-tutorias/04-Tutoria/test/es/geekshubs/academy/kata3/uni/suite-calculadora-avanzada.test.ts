@@ -40,5 +40,11 @@ describe('Testing for kata3 Calculadora avanzada', function () {
         expect(result).toBe(expected)
     });
 
+   /* test("Operación fibonacci: 250 = 7896325826131730509282738943634332893686268675876375", ()=> {   
+        const expected = 7896325826131730509282738943634332893686268675876375
+        const result = fibonacci(250)
+        expect(result).toBe(expected)
+    });
+    */
 
 });
