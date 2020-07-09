@@ -1,4 +1,5 @@
-//https://www.omnicalculator.com/math/factorial
-export const factorial = (a:number) : number => {
-    return null;
+export const factorial = (n:number) : number => {
+    return (n === 0)
+    ? 1
+    : n * factorial(n - 1)
 }
