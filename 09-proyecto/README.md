@@ -69,6 +69,13 @@ Running tests	    npx jest
 | ... | ...  |... |
 | ... | ...  |... |
 
+## Docker
+| Dependencias 
+| :-------: | 
+| ... | 
+| ... | 
+| ... |
+
 ## Notas
 ```
 Ponga aquí cualquier tipo de mensaje necesario.
