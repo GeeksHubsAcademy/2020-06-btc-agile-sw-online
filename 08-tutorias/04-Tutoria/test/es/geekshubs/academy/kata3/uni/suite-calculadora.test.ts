@@ -59,19 +59,19 @@ describe('Testing for kata3', function () {
         expect(result).toBe(expected)
     });
 
-    test("Calculadora Operación multiplicacion: 5 * 0 = 0", ()=> {   
+    test("Calculadora Operación multiplicación: 5 * 0 = 0", ()=> {   
         const expected = 0
         const result = multi(5,0)
         expect(result).toBe(expected)
     });
 
-    test("Calculadora Operación división: 5 * -5 = -25", ()=> {   
+    test("Calculadora Operación multiplicación: 5 * -5 = -25", ()=> {   
         const expected = -25
         const result = multi(5,-5)
         expect(result).toBe(expected)
     });
 
-    test("Calculadora Operación división: -5 * -5 = 25", ()=> {   
+    test("Calculadora Operación multiplicación: -5 * -5 = 25", ()=> {   
         const expected = 25
         const result = multi(-5,-5)
         expect(result).toBe(expected)
