@@ -1,0 +1,15 @@
+{
+  "name": "2020-06-btc-agile-online-tutorial-3",
+  "version": "0.2.0",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^25.5.4",
+    "ts-jest": "^25.5.1",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {}
+}
