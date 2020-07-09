@@ -1,6 +1,7 @@
 import { suma } from "../../../../../../src/es/geekshubs/academy/kata3/calculadora";
 import { resta } from "../../../../../../src/es/geekshubs/academy/kata3/calculadora";
 import { division } from "../../../../../../src/es/geekshubs/academy/kata3/calculadora";
+import { multi } from "../../../../../../src/es/geekshubs/academy/kata3/calculadora";
 
 describe('Testing for kata3', function () {
 
@@ -55,6 +56,24 @@ describe('Testing for kata3', function () {
     test("Calculadora Operación división: 10 / 2 = 5", ()=> {   
         const expected = 5
         const result = division(10,2)
+        expect(result).toBe(expected)
+    });
+
+    test("Calculadora Operación multiplicacion: 5 * 0 = 0", ()=> {   
+        const expected = 0
+        const result = multi(5,0)
+        expect(result).toBe(expected)
+    });
+
+    test("Calculadora Operación división: 5 * -5 = -25", ()=> {   
+        const expected = -25
+        const result = multi(5,-5)
+        expect(result).toBe(expected)
+    });
+
+    test("Calculadora Operación división: -5 * -5 = 25", ()=> {   
+        const expected = 25
+        const result = multi(-5,-5)
         expect(result).toBe(expected)
     });
 });
