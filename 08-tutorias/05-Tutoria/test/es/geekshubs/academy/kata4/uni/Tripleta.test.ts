@@ -11,7 +11,7 @@ describe('Testing for kata4 - Tripleta', function () {
 
     test("Tripleta con valores 1 positivos, 3 negativos y 0 neutro da como resultado [0.25, 0.75, 0] ", ()=> {   
         const expected = [0.25, 0.75, 0]
-        const result = tripleta([-3, -4, -1, 1 ])
+        const result = tripleta([-3, -4, -1, 1])
         expect(result).toEqual(expected)
     });
 

@@ -6,13 +6,14 @@ export const tripleta = (input: Array<number> ) : Array<number> => {
     for(var i = 0; i < deno; i++){
         if(input[i] > 0)
             res[0]++;
-
-        if(input[i] < 0)
+        else if(input[i] < 0)
             res[1]++;
+        else if(input[i] == 0)
+            res[2]++;
     }
 
     //salida
-    for(var i = 0; i < deno; i++){
+    for(var i = 0; i < res.length; i++){
             res[i] /= deno;
             res[i] = parseFloat(res[i].toFixed(6))
     }
