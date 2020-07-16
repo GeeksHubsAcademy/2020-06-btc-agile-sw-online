@@ -2,7 +2,7 @@ import { tripleta } from "../../../../../../src/es/geekshubs/academy/kata4/tripl
 
 describe('Testing for kata4 - Tripleta', function () {
 
-    test("Operación suma: 0 + 0 = 0", ()=> {   
+    test("", ()=> {   
         const expected = 0
         const result = tripleta()
         expect(result).toBe(expected)

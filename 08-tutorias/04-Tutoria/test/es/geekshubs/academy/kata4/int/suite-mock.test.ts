@@ -1,4 +1,4 @@
-import { fibonacci } from "../../../../../../src/es/geekshubs/academy/kata3/calculadora-avanzada";
+/*import { fibonacci } from "../../../../../../src/es/geekshubs/academy/kata3/calculadora-avanzada";
 
 jest.mock("../../../../../../src/es/geekshubs/academy/kata3/calculadora-avanzada");
 const mockFibonacci = fibonacci as jest.MockedFunction<typeof fibonacci>;
@@ -39,4 +39,4 @@ describe('Testing-Mock for kata3 Calculadora avanzada', function () {
         expect(mockFibonacci).toBeCalledWith(inputs)
     })
 
-});
+});*/
