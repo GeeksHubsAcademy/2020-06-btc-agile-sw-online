@@ -1,11 +1,14 @@
 export const tripleta = (input: Array<number> ) : Array<number> => {
     var deno = input.length;
-    var res = [0,0,0];
+    var res = [0, 0, 0];
 
     //cálculo
     for(var i = 0; i < deno; i++){
         if(input[i] > 0)
-            res[0] = res[0] + 1;
+            res[0]++;
+
+        if(input[i] < 0)
+            res[1]++;
     }
 
     //salida
